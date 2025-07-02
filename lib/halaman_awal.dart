@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
 class HalamanAwal extends StatefulWidget {
-  const HalamanAwal({Key? key}) : super(key: key);
+  const HalamanAwal({super.key});
 
   @override
-  _HalamanAwal createState() => _HalamanAwal();
+  HalamanAwalState createState() => HalamanAwalState();
 }
 
-class _HalamanAwal extends State<HalamanAwal> {
+class HalamanAwalState extends State<HalamanAwal> {
   String numbers = "";
 
   clickNumber(int number) {

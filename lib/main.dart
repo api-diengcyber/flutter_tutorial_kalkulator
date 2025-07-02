@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_aplikasi_pertama/halaman_awal.dart';
+import 'package:flutter_aplikasi_pertama/home.dart';
 
 void main() {
   runApp(const MainApp());
@@ -10,6 +10,6 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: HalamanAwal());
+    return MaterialApp(home: Home());
   }
 }
